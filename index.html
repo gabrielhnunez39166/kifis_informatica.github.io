@@ -1,165 +1,259 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="./styles/style.css">
-  
-  <title>Frontend Mentor | Fylo landing page with two column layout</title>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kifis Informática</title>
+    <link rel="shortcut icon" href="./images/logo_kifis.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+
+    <meta name="theme-color" content="#2091F9">
 </head>
 
 <body>
-  <header class="Header">  
-    <nav class="navbar">
-      <figure class="logo">
-        <img width="" height="" alt="logo_fylo" src="./images/logo.svg">
-      </figure>
-      <menu class="menu">
-        <ul>
-          <li class="menu__list--item">
-            Features
-          </li>
-          <li class="menu__list--item">
-            Team
-          </li>
-          <li class="menu__list--item">
-            Sign In
-          </li>
-        </ul>
-      </menu>
-    </nav>
-  </header>
 
-  <main class="Main">
-    <section class="section">
-      <figure>
-        <img alt="imagen_de_Fondo" src="./images/illustration-1.svg" >
-      </figure>
-      <article class="article">
-        <header class="article__header">
-          <h2>All your files in one secure location, accessible anywhere.</h2>
-        </header>
-        <main class="article__main">
-          <p class="article__header--paragraph">Fylo stores your most important files in one secure location. 
-            Access them wherever you need, share and collaborate with friends, 
-            family, and co-workers.</p>
-        </main>
-        <footer class="article__footer">
-          <form action="" class="article__footer--form">
-            <input type="email">
-            <button type="">Get Started</button>
-          </form>
-        </footer>
-      </article>
-    </section>
+    <header class="hero">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <h2 class="nav__title">Kifis Informática</h2>
+            </div>
 
-    <section class="section">
-      <figure>
-        <img alt="imagen_de_Fondo" src="./images/illustration-2.svg" >
-      </figure>
-      <article class="article">
-        <header class="article__header">
-          <h2 class="article__header--title">Stay productive, wherever you are</h2>
-        </header>
-        <main class="article__main">
-          <p class="article__main--paragraph">
-            Never let location be an issue when accessing your files. Fylo has you 
-            covered for all of your file storage needs.
-          </p>
-          <p class="article__main--paragraph">
-            Securely share files and folders with friends, family and colleagues for 
-  live collaboration. No email attachments required!
-          </p>
-          <a class="article__main--link" href="#" target="_blank">See how Fylo works</a>
-        </main>
-        <footer class="article__footer">
-          <q>Fylo has improved our team productivity by an order of magnitude. Since 
-            making the switch our team has become a well-oiled collaboration machine.</q>
-          <figure>
-            <img width="32px" height="32px" alt="icon_avatar" src="./images/avatar-testimonial.jpg" >
-            <figcaption>
-              Kyle Burton
-              Founder & CEO, Huddle
-            </figcaption>
-          </figure>
-        </footer>
-      </article>
-    </section>
-  </main>
+            <ul class="nav__link nav__link--menu">
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Inicio</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Acerca de</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Contacto</a>
+                </li>
 
-  <aside class="Aside">
-    <section class="section">
-      <article class="article">
-        <header class="article__header">
-          <h2 class="article__herader--title">Get early access today</h2>
-        </header>
-        <main class="article__main">
-          <p class="article__aside--paragraph">It only takes a minute to sign up and our free starter tier is extremely generous. 
-            If you have any questions, our support team would be happy to help you.</p>
-        </main>
-        <aside class="article__aside">
-          <form action="">
-            <input type="email">
-            <button>Get Started For Free</button>
-          </form>
-        </aside>
-      </article>
-    </section>
-  </aside>
+                <img src="./images/close.svg" class="nav__close">
+            </ul>
 
-  <footer class="Footer">
-    <section class="section">
-      <article class="article">
-        <figure>
-          <img width="" height="" alt="logo_fylo" src="./images/logo.svg">
-        </figure>
-        <a href="">
-          <figure>
-            <img width="" height="" alt="icon_phone" src="./images/icon-phone.svg">
-          </figure>
-          Phone: +1-543-123-4567
-        </a>
-        <a href="">
-          <figure>
-            <img width="" height="" alt="icon_email" src="./images/icon-email.svg">
-          </figure>
-          example@fylo.com
-        </a>
-      </article>
+            <div class="nav__menu">
+                <img src="./images/menu.svg" class="nav__img">
+            </div>
+        </nav>
 
-      <article class="article">
-        <ul class="article__menu">
-          <li class="article__menu--item">About Us</li>
-          <li class="article__menu--item">Jobs</li>
-          <li class="article__menu--item">Press</li>
-          <li class="article__menu--item">Blog</li>
-          <li class="article__menu--item">Contact Us</li>
-          <li class="article__menu--item">Terms</li>
-          <li class="article__menu--item">Privacy</li>
-        </ul>
-      </article>
+        <section class="hero__container container">
+            <h1 class="hero__title">Tu solución tecnológica integral</h1>
+            <p class="hero__paragraph">¿Tu computadora, notebook o consola te está dando problemas? ¿Necesitas una actualización o configuración? ¡No busques más! En Kifis Informática, ofrecemos un servicio integral de mantenimiento, actualización, configuración y reparación para que tus dispositivos funcionen siempre al máximo rendimiento.</p>
+            <!-- <a href="#" class="cta">Comienza ahora</a> -->
+        </section>
+    </header>
 
-      <article class="article">
-        <figure class="article__socialMedia">
-          <img width="32px" height="32px" alt="icon_facebook" src="./images/icon_facebook.svg">
-        </figure>
-        <figure class="article__socialMedia">
-          <img width="32px" height="32px" alt="icon_twitter" src="./images/icon_twitter.svg">
-        </figure>
-        <figure class="article__socialMedia">
-          <img width="32px" height="32px" alt="icon_instagram" src="./images/icon_instagram.svg">
-        </figure>
-      </article>
-    </section>
-  </footer>
+    <main>
+        <section class="container about">
+            <h2 class="subtitle">Acerca de</h2>
+            <p class="about__paragraph">Kifis Informática es un emprendimiento joven con un equipo entusiasta y capacitado en el mantenimiento, actualización, configuración y reparación de computadoras, notebooks y consolas. Nuestro objetivo principal es brindarte un servicio de calidad y personalizado, atendiendo tus necesidades tecnológicas con profesionalismo y amabilidad.</p>
+            <br>
+            <h2 class="subtitle">¿Por qué elegirnos?</h2>
+            <p class="about__paragraph">Si buscas un servicio técnico confiable y de calidad para tu computadora, notebook o consola, Kifis Informática es tu mejor opción. Contacta con nosotros hoy mismo y te asesoraremos con gusto.</p>
+            <p>¡Recuerda que en Kifis Informática, tu equipo está en buenas manos!</p>
 
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
+            <div class="about__main">
+                <article class="about__icons">
+                    <img src="./images/shapes.svg" class="about__icon">
+                    <h3 class="about__title">Atencion personalizada</h3>
+                    <p class="about__paragrah">Nos tomamos el tiempo para comprender tus necesidades y ofrecerte la mejor solución para tu equipo.</p>
+                </article>
+
+                <article class="about__icons">
+                    <img src="./images/paint.svg" class="about__icon">
+                    <h3 class="about__title">Servicio rápido y eficiente</h3>
+                    <p class="about__paragrah">Trabajamos con dedicación y rapidez para que puedas volver a disfrutar de tu equipo lo antes posible.</p>
+                </article>
+
+                <article class="about__icons">
+                    <img src="./images/code.svg" class="about__icon">
+                    <h3 class="about__title">Garantía de satisfacción</h3>
+                    <p class="about__paragrah">Estamos seguros de la calidad de nuestro trabajo y te ofrecemos una garantía para tu tranquilidad.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="knowledge">
+            <div class="knowledge__container container">
+                <div class="knowledege__texts">
+                    <h2 class="subtitle">Nuestros trabajos</h2>
+                    <p class="knowledge__paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi,
+                        aliquam nemo in facere suscipit at delectus unde labore ad officia iste accusantium eaque
+                        aperiam laborum est voluptate totam? Modi, obcaecati?</p>
+                    <a href="#" class="cta">Ver mas</a>
+                </div>
+
+                <figure class="knowledge__picture">
+                    <img src="./images/ps4.jpg" class="knowledge__img">
+                </figure>
+            </div>
+        </section>
+
+        <section class="price container">
+            <h2 class="subtitle">Plan de mantenimiento</h2>
+
+            <div class="price__table">
+                <div class="price__element">
+                    <p class="price__name">PC</p>
+                    <h3 class="price__price">Descuento 15%</h3>
+
+                    <div class="price__items">
+                        <p class="price__features">Mantenimiento</p>
+                        <p class="price__features">Actualizacion</p>
+                        <p class="price__features">Configuracion</p>
+                    </div>
+
+                    <a href="#" class="price__cta">Suscribite</a>
+                </div>
+
+
+                <div class="price__element price__element--best">
+                    <p class="price__name">Consolas</p>
+                    <h3 class="price__price">Descuento 15%</h3>
+
+                    <div class="price__items">
+                        <p class="price__features">Mantenimiento</p>
+                        <p class="price__features">Actualizacion</p>
+                        <p class="price__features">Configuracion</p>
+                        <p class="price__features">Instalar Juegos</p>
+                    </div>
+
+                    <a href="#" class="price__cta">Suscribite</a>
+                </div>
+
+
+                <div class="price__element">
+                    <p class="price__name">Notebooks</p>
+                    <h3 class="price__price">Descuento 15%</h3>
+
+                    <div class="price__items">
+                        <p class="price__features">Mantenimiento</p>
+                        <p class="price__features">Actualizacion</p>
+                        <p class="price__features">Configuracion</p>
+                    </div>
+
+                    <a href="#" class="price__cta">Suscribite</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimony">
+            <div class="testimony__container container">
+                <img src="./images/leftarrow.svg" class="testimony__arrow" id="before">
+
+                <section class="testimony__body testimony__body--show" data-id="1">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Mi nombre es Gabriel Nuñez, <span class="testimony__course">Asistente tecnológico personal</span></h2>
+                        <p class="testimony__review">Soy un entusiasta de la tecnología con una gran pasión por resolver problemas informáticos. Actualmente curso la Tecnicatura en Desarrollo de Software y me encuentro en constante formación para ofrecer las mejores soluciones a mis clientes. Poseo amplios conocimientos en seguridad informática, administración de redes, administración de sistemas, mantenimiento, configuracion y reparacion de computadoras.</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/Foto 4x4.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+                <img src="./images/rightarrow.svg" class="testimony__arrow" id="next">
+            </div>
+        </section>
+
+        <section class="questions container">
+            <h2 class="subtitle">Preguntas frecuentes</h2>
+            <p class="questions__paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, porro
+                doloribus neque perspiciatis sapiente fuga.</p>
+
+            <section class="questions__container">
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">¿Donde se encuentran?
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">Trabajamos en Bernal - Partido de Quilmes en nuestro taller.</p>
+                    </div>
+                </article>
+
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">¿Hacen envios?
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">Actualmente los envios quedan a cargo del cliente, los gastos del mismo se veran reflejados en la factura.</p>
+                    </div>
+                </article>
+
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">¿Por que el logo tiene un cachorro?
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">Somos amantes de la tecnologia y mientras nos desempeñamos en nuestro trabajo, nos acompañan nuestras mascotas (perros) los cuales dieron nombre y logo a nuestro emprendimiento.</p>
+                    </div>
+                </article>
+            </section>
+
+            <section class="questions__offer">
+                <h2 class="subtitle">Contactanos</h2>
+                <p class="questions__copy">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet ratione
+                    architecto magnam, officiis ex porro vero est voluptates quaerat quibusdam illo veniam reprehenderit
+                    eius atque tempora iure ab non autem.</p>
+                <a href="#" class="cta">Contactanos</a>
+            </section>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <section class="footer__container container">
+            <nav class="nav nav--footer">
+                <h2 class="footer__title">Kifis Informática</h2>
+
+                <ul class="nav__link nav__link--footer">
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Inicio</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Acerca de</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <form class="footer__form" action="https://formspree.io/f/mknkkrkj" method="POST">
+                <h2 class="footer__newsletter">Suscribete a la newsletter</h2>
+                <div class="footer__inputs">
+                    <input type="email" placeholder="Email:" class="footer__input" name="_replyto">
+                    <input type="submit" value="Registrate" class="footer__submit">
+                </div>
+            </form>
+        </section>
+
+        <section class="footer__copy container">
+            <div class="footer__social">
+                <a href="#" class="footer__icons"><img src="./images/facebook.svg" class="footer__img"></a>
+                <a href="#" class="footer__icons"><img src="./images/twitter.svg" class="footer__img"></a>
+                <a href="#" class="footer__icons"><img src="./images/youtube.svg" class="footer__img"></a>
+            </div>
+
+            <h3 class="footer__copyright">Derechos reservados &copy; Kifis Informática</h3>
+        </section>
+    </footer>
+
+    <script src="./js/slider.js"></script>
+    <script src="./js/questions.js"></script>
+    <script src="./js/menu.js"></script>
 </body>
+
 </html>
