@@ -11,7 +11,11 @@
         menu.classList.remove('nav__link--show');
     });
 
-    
-
+    const menuLinks = document.querySelectorAll(".nav__link a[href^=\"#\"]")
+    menuLinks.forEach(menuLinks => {
+        menuLinks.addEventListener("click", function(){
+            menu.classList.remove('nav__link--show')
+        })
+    })
 
 })();
