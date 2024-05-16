@@ -7,6 +7,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    background-color: #e5e5f7;
 }
 
 .container {
@@ -51,6 +52,11 @@ html{
     scroll-behavior: smooth;
 }
 
+<<<<<<< HEAD
+
+
+=======
+>>>>>>> d9e5093d8d836bbf25758f0cc3fe6569eaeb20c1
 /* Nav */
 
 .nav {
@@ -171,6 +177,19 @@ html{
     width: 70px;
 }
 
+<<<<<<< HEAD
+
+/* Form */
+.form_container{
+    max-width: 800px;
+    --padding-container: 0;
+    display: grid;
+    grid-auto-rows: max-content;
+    align-content: center;
+    text-align: center;
+}
+
+=======
 /* trabajos */
 
 .trabajos {
@@ -201,6 +220,7 @@ html{
     width: 100%;
     display: block;
 }
+>>>>>>> d9e5093d8d836bbf25758f0cc3fe6569eaeb20c1
 
 /* Questions */
 
@@ -211,8 +231,6 @@ html{
 .questions__container{
     display: grid;
     gap: 2em;
-    padding-top: 50px;
-    padding-bottom: 100px;
 }
 
 .questions__padding{

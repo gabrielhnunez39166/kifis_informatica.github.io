@@ -1,0 +1,70 @@
+@charset 'UTF-8';
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+HTML{
+
+}
+
+/*Header*/
+.Header{
+    width: 100vw;
+    height: 15vh;
+}
+
+.Header .section{
+    height: 100%;
+    width: 90%;
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.Header .section .navbar{
+
+}
+
+.Header .section .navbar .navbar__menu{
+
+}
+
+.Header .section .navbar .navbar__menu--link{
+
+}
+
+.Header .section .cta{}
+
+.Header .section .cta__email{}
+
+.Header .section .cta__link{}
+
+
+/*Aside*/
+.Aside{}
+
+.Aside .section{}
+
+.Aside .section .article{}
+
+
+/*Main*/
+.Main{}
+
+.Main .section{}
+
+.Main .section .article{}
+
+
+/*Footer*/
+.Footer{}
+
+.Footer .section{}
+
+.Footer .section .article{}
